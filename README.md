@@ -1,3 +1,13 @@
+# NextDocs-Core
+
+NextDocs-Core is the NextLife platform document management module.
+
+> Upstream: [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
+>
+> License notice: This fork retains the upstream project license, copyright notices, and attribution. Review the upstream license before use or distribution.
+
+---
+
 [![ci](https://github.com/paperless-ngx/paperless-ngx/workflows/ci/badge.svg)](https://github.com/paperless-ngx/paperless-ngx/actions)
 [![Crowdin](https://badges.crowdin.net/paperless-ngx/localized.svg)](https://crowdin.com/project/paperless-ngx)
 [![Documentation Status](https://img.shields.io/github/deployments/paperless-ngx/paperless-ngx/github-pages?label=docs)](https://docs.paperless-ngx.com)
