@@ -1,0 +1,40 @@
+{
+  "module": "nextdocs",
+  "displayName": "NextDocs",
+  "identity": {
+    "provider": "nextid",
+    "clientId": "nextdocs",
+    "issuer": "http://login.harran.edu.tr/realms/harranuniversity",
+    "enabled": false,
+    "requiredClaims": [
+      "sub",
+      "preferred_username",
+      "email",
+      "given_name",
+      "family_name"
+    ]
+  },
+  "audit": {
+    "provider": "nextlog",
+    "enabled": false,
+    "endpointEnv": "NEXTLOG_AUDIT_URL",
+    "failOpen": true
+  },
+  "roles": {
+    "admin": "NEXTDOCS_ADMIN",
+    "manager": "NEXTDOCS_MANAGER",
+    "editor": "NEXTDOCS_EDITOR",
+    "viewer": "NEXTDOCS_VIEWER",
+    "archivist": "NEXTDOCS_ARCHIVIST",
+    "auditor": "NEXTDOCS_AUDITOR"
+  },
+  "documentLifecycle": [
+    "draft",
+    "uploaded",
+    "classified",
+    "pending_approval",
+    "approved",
+    "archived",
+    "rejected"
+  ]
+}
